@@ -37,6 +37,20 @@ export const getUsuario = async (req, res) => {
     }
   };
 
+  export const getProductosId=async(req,res)=>{
+    try{
+      const { id } = req.params; // Obtener el ID del producto desde los parámetros de la URL
+      const [rows] = await pool.query("SELECT * FROM productos where id=?",[id]);
+      if (rows.length <= 0) {
+        return res.status(404).json({ message: "No hay productos registrados" });
+      }
+      res.json({ productos: rows });
+    }catch(error){
+        return res.status(500).json({ message: "Algo salio mal" });
+    }
+  };
+
+
   export const postProductos=async(req,res)=>{
     try {
       const { name, description, price_cost, price_sale,quantity,image } = req.body; 

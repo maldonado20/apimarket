@@ -1,5 +1,5 @@
 import Router from 'express'
-import { getUsuarios, getUsuario, getProductos, postProductos, putProductos,deleteProductos } from '../controllers/market.controllers.js';
+import { getUsuarios, getUsuario, getProductos, postProductos, putProductos,deleteProductos,getProductosId } from '../controllers/market.controllers.js';
 
 const router=Router()
 
@@ -8,6 +8,9 @@ router.get('/usuarios',getUsuarios);
 
 //Ruta para consultar productos
 router.get('/productos',getProductos);
+
+//Ruta para consultar productos ID
+router.get('/productos/:id',getProductosId);
 
 // Ruta para iniciar sesión (Login)
 router.post('/usuarios/login', getUsuario);
