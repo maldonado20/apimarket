@@ -1,6 +1,6 @@
 # Lectura Digital
 
-<img src="Logo/logo.png" alt="Logo Lectura Digital" width="300" height="150">
+<img src="Logo/Logo.png" alt="Logo Lectura Digital" width="300" height="150">
 
 - **express**: Framework web minimalista para Node.js.
 - **mysql2**: Cliente para conectarse a bases de datos MySQL con soporte para promesas.
