@@ -2,17 +2,8 @@
 
 <img src="Logo/Logo.png" alt="Logo Lectura Digital" width="300" height="150">
 
-- **express**: Framework web minimalista para Node.js.
-- **mysql2**: Cliente para conectarse a bases de datos MySQL con soporte para promesas.
-- **body-parser**: Middleware para analizar el cuerpo de las solicitudes HTTP.
-- **cors**: Middleware para habilitar CORS (Cross-Origin Resource Sharing).
-- **dotenv**: Carga variables de entorno desde un archivo `.env`.
-- **nodemon** (opcional, para desarrollo): Herramienta que reinicia automáticamente el servidor al detectar cambios en el código.
+## Lectura Digital es un proyecto que viene a innovar la manera de leer, buscando fomentar la lectura para llamar la atención de nuevos lectores y mantener enfocados a los lectores ya existentes, ofreciendo acceso rápido y cómodo a tus libros favoritos, tanto para estudiantes o fanáticos de la lectura.
 
-### Instalación
+## El proyecto busca dar respuesta a personas con falta de tiempo para viajar a una biblioteca, te brinda una experiencia personalizada. 
 
-Para instalar las dependencias, ejecuta el siguiente comando:
-
-```bash
-npm install express mysql2 body-parser cors dotenv
-npm install --save-dev nodemon
+- 1.	Análisis de diversas necesidades para dar un proyecto innovador.  
